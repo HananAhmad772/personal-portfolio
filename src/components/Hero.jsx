@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-import heroImage from '../assets/hero-image.png'
+import heroImage from '../assets/Hero-image.png'
 
 const Hero = () => {
   const heroRef = useRef(null)
