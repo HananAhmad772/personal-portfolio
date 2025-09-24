@@ -1361,6 +1361,12 @@ section {
   font-size: 1rem;
   transition: border-color 0.3s ease;
   background: white;
+  color: #2d3748;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #a0aec0;
 }
 
 .form-group input:focus,
@@ -1543,7 +1549,28 @@ section {
   color: #f7fafc;
 }
 
+.dark .subsection-title {
+  color: #f7fafc;
+}
+
 .dark .timeline-description {
+  color: #a0aec0;
+}
+
+.dark .timeline-company {
+  color: #a3b0ff;
+}
+
+.dark .timeline-period {
+  color: #cbd5e0;
+}
+
+.dark .timeline-type {
+  background: #1a202c;
+  color: #e2e8f0;
+}
+
+.dark .timeline-achievements li {
   color: #a0aec0;
 }
 
@@ -1553,6 +1580,14 @@ section {
 
 .dark .education-degree {
   color: #f7fafc;
+}
+
+.dark .education-institution {
+  color: #a3b0ff;
+}
+
+.dark .education-year {
+  color: #cbd5e0;
 }
 
 .dark .education-description {
@@ -1614,6 +1649,11 @@ section {
   background: #1a202c;
   border-color: #4a5568;
   color: #e2e8f0;
+}
+
+.dark .form-group input::placeholder,
+.dark .form-group textarea::placeholder {
+  color: #718096;
 }
 
 .dark .form-group input:focus,
@@ -1789,7 +1829,7 @@ section {
 /* Very Large Screens (1441px and above) */
 @media (min-width: 1441px) {
   .container {
-    max-width: 1400px;
+    max-width: 100%;
     padding: 0 40px;
   }
   
